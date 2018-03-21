@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <title>Angular-basic</title>
+    <meta name="description" content="Copyright http://blog.fens.me">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body ng-app="app">
+
+<div class="container">
+    <h2 class="text-primary">
+        Please give me the strength<br>
+        请赐给我力量
+    </h2>
+    <pre>
+        Give me the strength lightly to bear my joys and sorrows.
+        Give me the strength to make my love fruitful in service.
+        Give me the strength never to disown the poor or bend my knees before insolent might.
+        Give me the strength to raise my mind high above daily trifles.
+        And give me the strength to surrender my strength to thy will with love.
+        请赐给我力量使我能轻闲地承受欢乐与忧伤。
+        请赐给我力量使我的爱在服务中得到果实。
+        请赐给我力量使我永不抛弃穷人也永不向淫威屈膝。
+        请赐给我力量使我的心灵超越于日常琐事之上。
+        再赐给我力量使我满怀爱意地把我的力量服从你意志的指挥。
+
+    </pre>
+
+    <div class="row">
+        <div class=".col-lg-12">
+            <div ng-view></div>
+        </div>
+    </div>
+</div>
+
+<script src="lib/angular/angular.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="lib/angular-route/angular-route.min.js"></script>
+<script src="lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script src="scripts/angular/app.js"></script>
+<script src="scripts/angular/controllers.js"></script>
+
+</body>
+</html>
